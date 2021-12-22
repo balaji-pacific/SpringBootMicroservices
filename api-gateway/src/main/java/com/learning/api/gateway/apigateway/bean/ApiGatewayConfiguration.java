@@ -38,7 +38,7 @@ public class ApiGatewayConfiguration {
 				
 				.route(p -> p.path("/currency-conversion-yashika/**").filters(f -> f.rewritePath("/currency-conversion-yashika/", "/currency-conversion-feign/"))
 						.uri("lb://currency-conversion"))
-				.build();		
+				.build();
 	}
 
 }
