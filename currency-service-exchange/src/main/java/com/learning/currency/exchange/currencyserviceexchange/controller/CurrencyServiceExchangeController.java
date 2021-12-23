@@ -35,7 +35,7 @@ public class CurrencyServiceExchangeController {
 			
 		}
 		currencyExchange.setEnvironment(environment.getProperty("local.server.port"));		
-		return currencyExchange ;				
+		return currencyExchange ;
 	}
 
 }
